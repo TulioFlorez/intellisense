@@ -1,8 +1,7 @@
 package com.intellisense.api;
 
 import javax.validation.Valid;
-
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.MediaType;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,6 +14,7 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 
+@RequestMapping(path = { "/period"}, produces = {MediaType.APPLICATION_JSON_VALUE} )
 public interface AvaregeApi {
 	
 	@ApiOperation(
