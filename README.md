@@ -28,7 +28,7 @@ docker run -it -p 8080:8080 test:0.0.1-SNAPSHOT
  
  you need to identify what actions you want to use according to the instructions of the test
  
-  * POST http://localhost:8080/period - set  a period to retrieve the measures of assets for slot of time, use the body to send period data in JSON format 
+  * POST http://localhost:8080/period - establish a period for recovering asset measurements by time intervals, use the body to send period data in JSON format 
 
 ## Swagger API (API documentation)
 ui
