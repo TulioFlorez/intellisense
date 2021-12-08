@@ -22,7 +22,7 @@ mvn clean install
 ```
 Then run the container exposing port 8080
 ```
-docker run -it -p 8080:8080 test:0.0.1-SNAPSHOT
+docker run -it -p 8080:8080 intellisense:0.0.1-SNAPSHOT
 ```
 ### HTTP methods and actions
  
